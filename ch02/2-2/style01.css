@@ -1,0 +1,33 @@
+@charset "utf-8";
+body {
+	margin: 0px;	
+}
+header, section, footer {
+	width: 700px;
+	margin-left: auto;
+	padding: 20px;
+	margin-right: auto;
+}
+
+header {
+	background-color: #F8CACB;
+	height: ;: 200px;
+	height: 200px;
+}
+section {
+	background-color: #B7BCF1;
+	min-height: 400px;
+}
+footer {
+	background-color: #BDF0E9;
+	height: 200px;
+}
+h3 {
+	margin: 0px;
+	font-size: 26px;
+}
+p {
+	font-size: 16px;
+	margin: 0px;
+	line-height: 1.5em;
+}
