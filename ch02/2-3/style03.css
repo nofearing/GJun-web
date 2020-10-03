@@ -1,0 +1,44 @@
+body{
+    font-size: 100%;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.527);
+}
+.main .section h1{
+    color: rgb(0, 46, 105);
+}
+.section .title-1{
+    color: rgb(0, 46, 105);
+}
+.section{
+    width: 560px;
+    margin-left: auto; /*區塊置中*/
+    margin-right: auto;/*區塊置中*/
+    padding: 20px;
+    min-height: 450px;
+    background-color: rgb(221, 243, 209);
+}
+.section h1{
+    text-align: center;
+    color: rgb(84, 169, 243);
+    font-size: 40px;
+}
+.section p{
+    text-align: center;
+    color: cadetblue;
+}
+.section img{
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    padding: 3px;
+    display: block; /*設為區塊元素*/
+    margin-left: auto;  /*置中*/
+    margin-right: auto; /*置中*/
+}
+nav{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    background-color: rgb(41, 131, 248);
+}
