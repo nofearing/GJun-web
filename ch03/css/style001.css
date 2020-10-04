@@ -1,0 +1,73 @@
+body{
+    background-color: gray;
+}
+.wrap{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    padding: 0px 20px 0px 20px;
+}
+.wrap header{
+    height: 100px;
+
+}
+.wrap section{
+    min-height: 345px;
+}
+.wrap section .photo{
+    width: 240px;
+    float: left;
+    min-height: 345px;
+}
+.wrap section .cast{
+    width: 440px;
+    float: left;
+    min-height: 345px;
+    margin-left: 20px;
+}
+.wrap section .cast table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 345px;
+}
+.wrap section .cast table td {
+    border: 1px solid black;
+    padding: 0px 5px 0px 5px;
+}
+.wrap section .cast table td:first-child { /*本課重點 first-child*/
+    width: 100px;
+    background-color: gray;
+}
+.wrap .content{
+    min-height: 250px;
+}
+.wrap .content h2{
+    color: rgb(107, 25, 25);
+    font-size: 22px;
+}
+.wrap .content p{
+    line-height: 1.5em;
+    font-size: 15px;
+}
+.wrap footer{
+    height: 50px;
+    padding-top: 10px;
+}
+.wrap footer a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.wrap footer a:hover{
+    color: red;
+}
+.wrap section .photo img {
+    width: 100%;
+    height: auto;
+}
+.wrap header h1+p{ /*本課重點：選取器(H1之後的P)*/
+    color: red;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}

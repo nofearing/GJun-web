@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>響影式網頁</title>
+    <style>
+        body{
+            font-size: 100%; /*配合響應式網頁務必設定*/
+            margin: 0px;
+        }
+        header,section,footer{
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        header{
+            height: 200px;
+            background-color: red;
+        }
+        section{
+            height: 400px;
+            background-color: blue;
+        }
+        footer{
+            height: 100px;
+            background-color: gray;
+        }
+        @media screen and (max-width: 440px){   /*本課重點*/
+            header{
+                background-color: yellow;
+                height: 300px;
+            }
+        }
+        @media screen and (max-width: 768px){   /*括號內不能出現；（分號）*/
+            header{
+                background-color: green;
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>header</header>
+    <section>section</section>
+    <footer>footer</footer>
+</body>
+</html>
